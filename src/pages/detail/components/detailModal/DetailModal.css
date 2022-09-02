@@ -1,0 +1,53 @@
+.detail-modal .ant-tabs-tabpane .record-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 30rem;
+}
+
+.detail-modal .ant-tabs-tabpane .record-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0.6rem;
+}
+
+.detail-modal .ant-btn-icon-only {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid rgba(84, 71, 71, 0.262);
+
+}
+
+.detail-modal .ant-btn-icon-only:hover {
+  border-color: rgb(154, 100, 29);
+  transition: 100ms all ease-in-out;
+  transform: scale(1.1);
+}
+
+.detail-modal .ant-btn-icon-only .icon {
+  width: 3rem;
+  height: 3rem;
+}
+
+.detail-modal .ant-btn-icon-only.active {
+  background-color: #c5c4c4;
+}
+
+.input-list {
+  margin: 2rem 1rem
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  margin: 0.8rem 0;
+}
+
+.list-item>span {
+  flex-basis: 6rem;
+}
+
+.list-item>input,
+.list-item>.ant-picker {
+  flex-basis: 18rem;
+}

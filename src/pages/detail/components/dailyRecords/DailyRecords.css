@@ -1,0 +1,29 @@
+.records {
+    padding: 0.8rem 2rem 0.8rem 4rem
+}
+
+.daily-records-summary {
+    color: rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+    padding: 0.8rem 1.6rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 1.6rem;
+}
+
+.daily-records-date {
+    float: left;
+}
+
+.daily-records-detail {
+    float: right;
+}
+
+.daily-records-detail+.daily-records-detail {
+    margin-right: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    .daily-records-detail {
+        float: left;
+    }
+}
